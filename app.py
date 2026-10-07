@@ -16,7 +16,7 @@ def download():
         'quiet': True,
         'no_warnings': True,
         'format': 'best[ext=mp4]/best',
-        'extract_flat': False
+        'extract_flat': False,
         'cookiefile': 'cookies.txt'
     }
 
