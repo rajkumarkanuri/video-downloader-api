@@ -15,7 +15,7 @@ def download():
     ydl_opts = {
         'quiet': True,
         'no_warnings': True,
-        'format': 'best[ext=mp4]/best',
+        'format': 'b[ext=mp4]/b/best',
         'extract_flat': False,
         'cookiefile': 'cookies.txt'
     }
